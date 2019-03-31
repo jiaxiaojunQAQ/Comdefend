@@ -16,5 +16,5 @@ canton(pip install canton) </br>
 **Resnet_imagenet.py:** the classifier </br>
 **compression_imagenet.py:** the Comdefend for Imagenet</br>
 **compression_mnist.py:** the Comdefend for fashion_mnist</br>
-
-
+## In addition
+**E-mail:** jiaxiaojun@iie.ac.cn or 1642768580@qq.com
