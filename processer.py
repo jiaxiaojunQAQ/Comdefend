@@ -1,6 +1,7 @@
 import numpy as np
 import math
 import cv2
+import csv
 def change(x):
     x *=255
     x=x.astype('uint8')
@@ -54,3 +55,12 @@ def Divided_Pach(path1,path2):
             b=0
             a=a+32
     print(count)
+
+def read_file(file_name):
+    names=[]
+    labels=[]
+    csv_file=csv.reader(open(file_name,'r'))
+    for stu in csv_file:
+        names.append(stu[0])
+        labels.append(stu[1])
+    return names,labels

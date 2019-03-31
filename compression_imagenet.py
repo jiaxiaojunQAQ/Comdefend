@@ -88,8 +88,8 @@ def Compression(path,path1,threshold=.5): #将路径中图像压缩还原并保�
     return code, code2
 def load():
     print("****")
-    com.load_weights('enc20_0.0001.npy')
-    rec.load_weights('dec20_0.0001.npy')
+    com.load_weights('checkpoints/enc20_0.0001.npy')
+    rec.load_weights('checkpoins/dec20_0.0001.npy')
 com,rec = ComCNN(),RecCNN()
 com.summary()
 rec.summary()
