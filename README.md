@@ -1,6 +1,7 @@
 # Comdefend
 The code for CVPR2019 (ComDefend: An Efficient Image Compression Model to Defend Adversarial Examples)
 [paper](https://arxiv.org/abs/1811.12673)
+The pure tensorflow of code is released in the [link](https://github.com/ZhangYuef/Comdefend_tensorflow)
 ## Environmental configuration
 tensorflow>=1.1 </br>
 python3 </br>
