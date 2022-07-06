@@ -6,7 +6,12 @@ The pure tensorflow of code is released in the [link](https://github.com/ZhangYu
 tensorflow>=1.1 </br>
 python3 </br>
 canton(pip install canton) </br>
-> The keras and pytorch of the code will be released soon.
+
+## Train
+Torch: Train_comdefend_Torch.py
+TF: Train_comdefend_TF.py
+
+
 ## Description
 **clean_image**: we select 7 clean images which are classified correctly by the classifier </br>
 **attack_image:** we select 7 adversarial images which are attacked by the FGSM method </br>
